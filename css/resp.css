@@ -129,6 +129,9 @@
   .home .left p{
     text-align: center;
   }
+  .about .content .left p{
+    text-align: center;
+  }
   .contact .content .form-box{
     width: 300px;
     padding: 25px;
