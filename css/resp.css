@@ -1,0 +1,249 @@
+/* for width 1123px */
+@media only screen and (max-width: 1123px) {
+  /* navbar */
+  nav{
+    padding: 30px 50px;
+  }
+  nav.sticky{
+    padding: 30px 40px;
+  }
+  nav .logo h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+
+  /* sections */
+  section{
+    padding: 50px 30px;
+  }
+
+  /* home */
+  .home{
+    flex-direction: column-reverse;
+  }
+  .home .left h2{
+    text-align: center;
+  }
+
+  /* about */
+  .about .content{
+    flex-direction: column;
+  }
+  .about .content .left h2{
+    text-align: center;
+  }
+  .about .content .right img{
+    margin: 20px 0;
+  }
+
+  /* menus */
+  .menu .content .content-box{
+    flex-direction: column;
+  }
+
+  /* testimonials */
+  .testimonials .content .content-box{
+    flex-direction: column;
+  }
+  .testimonials .content .content-box .box{
+    margin: 50px;
+  }
+}
+
+/* for width 850px; */
+@media only screen and (max-width: 850px){
+
+  /* navbar  */
+  nav{
+    justify-content: flex-start;
+    padding: 30px 20px;
+  }
+  nav.sticky {
+    height: 50px;
+  }
+  nav ul{
+    display: none;
+  }
+  nav.sticky ul{
+    display: block;
+  }
+  nav.active{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav ul{
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    opacity: 0;
+  }
+  nav ul.active{
+    opacity: 1;
+    padding: 30px 0;
+  }
+  nav .toggle{
+    display: none;
+  }
+  nav.sticky .toggle{
+    display: block;
+  }
+  .toggle{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 30px;
+    height: 10px;
+    background: url('../img/menu.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    block-size: 30px;
+  }
+  .toggle.active{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+    height: 10px;
+    background: url('../img/close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    block-size: 30px;
+  }
+  nav.sticky .toggle{
+    filter: invert(1);
+  }
+
+}
+
+
+
+/* for width 550px; */
+@media only screen and (max-width: 550px){
+  nav .logo h1{
+    font-size: 16px;
+  }
+  .contact .content .form-box{
+    width: 300px;
+    padding: 25px;
+  }
+  .contact .content .form-box .text-box{
+    width: 225px;
+  }
+  .contact .content .form-box .textarea{
+    width: 225px;
+  }
+}
+
+
+/* for width 400px; */
+@media only screen and (max-width: 400px){
+  nav.sticky{
+    padding: 30px 5px;
+  }
+  nav .logo h1{
+    font-size: 12px;
+  }
+
+  /* menus */
+  .menu .content .content-box .box{
+    width: 250px;
+    height: 270px;
+    padding-top: 25px 25px;
+  }
+  .menu .content .box img{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* testimonials */
+  .testimonials .title-text{
+    font-size: 14px;
+  }
+
+  /* contact */
+  .contact .content .form-box h4{
+    font-size: 12px;
+  }
+}
+
+/* for width 300px; */
+@media only screen and (max-width: 300px){
+
+  .home .left p{
+    text-align: center;
+  }
+
+  .about .content .left h2{
+    font-size: 16px;
+  }
+
+  .header h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    /* text-transform: uppercase; */
+  }
+  .header h1 span{
+    color: #ff001e;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  /* menus */
+  .menu .content .content-box .box{
+    width: 200px;
+    height: 230px;
+  }
+  .menu .content .content-box .box p{
+    font-size: 14px;
+  }
+  .menu .content .box img{
+    width: 150px;
+    height: 150px;
+  }
+
+  /* testimonials */
+  .testimonials .title-text{
+    font-size: 12px;
+  }
+  .testimonials .content .content-box .box{
+    width: 230px;
+    height: 370px;
+  }
+  .testimonials .content .content-box .box p{
+    font-size: 12px;
+  }
+  .testimonials .content .content-box .box h3{
+    font-size: 14px;
+  }
+
+  /* contact */
+  .contact{
+    background-position: right;
+  }
+  .contact .content .form-box{
+    width: 250px;
+    padding: 25px;
+  }
+  .contact .content .form-box .text-box{
+    width: 200px;
+  }
+  .contact .content .form-box .textarea{
+    width: 200px;
+  }
+  .contact .content .form-box h4{
+    font-size: 12px;
+  }
+
+  /* footer */
+  footer p{
+    font-size: 12px;
+  }
+  footer .developer{
+    font-size: 8px;
+  }
+}

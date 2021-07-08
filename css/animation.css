@@ -1,0 +1,7 @@
+.home .left a:hover{
+  background: #ff002f;
+}
+.contact .content .form-box button:hover{
+  background: #ff002f;
+  color: #fff;
+}

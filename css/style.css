@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  /* background: black; */
+  position: fixed;
+  transition: 0.5s;
+}
+nav.sticky{
+  background: #fff;
+  padding: 20px 100px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+nav .logo h1{
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 800;
+  color: #ff001e;
+  text-transform: uppercase;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  margin: 15px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+nav.sticky ul li a{
+  color: #000;
+  font-weight: 600;
+}
+
+/* section */
+section{
+  padding: 50px 100px;
+}
+.header h1{
+  font-size: 34px;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  /* text-transform: uppercase; */
+}
+.header h1 span{
+  color: #ff001e;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.white{
+  color: #fff;
+}
+
+/* home section */
+.home{
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  background: #141414;
+}
+.home .left{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.home .left h2{
+  font-size: 34px;
+  text-align: left;
+  font-weight: 500;
+}
+.home .left p{
+  font-size: 16px;
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.home .left a{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 15px;
+  border: 2px solid #ff002f;
+  transition: 0.5s;
+}
+.home .right{
+  text-align: center;
+}
+.home .right img{
+  width: 70%;
+  margin-top: 80px;
+}
+
+
+/* about section */
+.about .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 50px 0;
+}
+.about .content .left{
+  width: 100%;
+  text-align: left;
+}
+.about .content .left h2{
+  font-size: 22px;
+  padding: 10px 0;
+}
+.about .content .left h2 span{
+  font-size: 30px;
+  color: #2196f3;
+}
+.about .content .left p{
+  font-size: 16px;
+  font-weight: 300;
+}
+.about .content .right img{
+  width: 80%;
+}
+
+
+/* menu section */
+.menu{
+  background: url('../img/img9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.menu .content{
+  margin: 50px 0;
+}
+.menu .content .content-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu .content .content-box .box{
+  content: '';
+  width: 300px;
+  height: 330px;
+  background: #fff;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.menu .content .content-box .box p{
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu .content .box img{
+  width: 250px;
+  height: 250px;
+  padding-top: 25px;
+}
+
+
+/* testimonials section */
+.testimonials .content{
+  margin: 50px 0;
+}
+.testimonials .title-text{
+  text-align: center;
+}
+.testimonials .content .content-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials .content .content-box .box{
+  content: '';
+  width: 280px;
+  height: 370px;
+  background: #111;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.testimonials .content .content-box .box p{
+  color: #fff;
+  font-size: 14px;
+  padding: 0 15px;
+}
+.testimonials .content .content-box .box h3{
+  text-align: right;
+  padding: 50px 15px;
+  color: #ff002f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.testimonials .content .content-box .box img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #fff  ;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+/* contact sction */
+.contact{
+  background: url('../img/img10.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+.contact .content .form-box{
+  content: '';
+  width: 500px;
+  height: auto;
+  background: #fff;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.5);
+}
+.contact .content .form-box .text-box{
+  width: 450px;
+  height: 35px;
+  margin: 10px 0;
+  background: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 1px solid #ff002f;
+}
+.contact .content .form-box .textarea{
+  height: 100px;
+}
+.contact .content .form-box h4{
+  font-weight: 500;
+  text-align: left;
+}
+.contact .content .form-box button{
+  padding: 3px 15px;
+  background: none;
+  border: 2px solid #ff002f;
+  transition: 0.5s;
+}
+
+/* footer */
+footer{
+  text-align: center;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+}
+footer p{
+  font-size: 14px;
+  padding: 5px;
+}
+footer .developer{
+  font-size: 10px;
+}
